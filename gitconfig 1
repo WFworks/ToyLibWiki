@@ -1,0 +1,6 @@
+[user]
+    name = Daisuke Nishimori
+    email = daisukn@outlook.com
+[alias]
+    stpull = subtree pull --prefix=ToyLibCore toylibcore main --squash
+    stpush = subtree push --prefix=ToyLibCore toylibcore main

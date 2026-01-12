@@ -1,0 +1,31 @@
+# Renderer 設定ファイル仕様（Renderer_Settings.json）
+
+ToyLib の `Renderer` コンポーネントは、外部の JSON 設定ファイルから描画設定や環境パラメータを読み込むことができます。
+
+## 📄 ファイル構造
+
+```json
+{
+  "title": "ToyLib Game",
+  "screen": {
+    "width": 1280.0,
+    "height": 720.0
+  },
+  "perspectiveFOV": 45.0,
+  "camera": {
+    "position": [0.0, 0.0, 5.0]
+  },
+  "debug": {
+    "enabled": true
+  },
+  "clearColor": [0.2, 0.5, 0.8],
+  "directionalLight": {
+    "position": [20.0, 20.0, -5.0],
+    "target": [0.0, 0.0, 0.0]
+  },
+  "fog": {
+    "maxDist": 100.0,
+    "minDist": 0.001,
+    "color": [0.2, 0.5, 0.8]
+  }
+}
