@@ -4,7 +4,6 @@
 - git
 - VSCODE
 
-
 # vcpkgセットアップ
 インストール先をC:¥Reposと仮定
 ``` powershell
