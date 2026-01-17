@@ -17,6 +17,7 @@ sudo apt update
 sudo apt install -y \
   build-essential \
   cmake \
+  gdb \
   git \
   pkg-config
 
