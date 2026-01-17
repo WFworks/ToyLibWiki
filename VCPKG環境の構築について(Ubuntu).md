@@ -8,6 +8,8 @@
 - OpenGL
 - OpenAL-Soft
 - Assimp
+- Mpeg123
+- fmt
 
 # OS機能ライブラリのインストール
 ```bash
