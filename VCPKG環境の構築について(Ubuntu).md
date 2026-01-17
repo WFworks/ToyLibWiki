@@ -1,7 +1,15 @@
-# 前提ディストリビューション
+# 前提環境
+## ディストリビューション
 - Ubuntu 25.10 
+## ツール、ライブラリ
+- VSCODE
+- G++, gdb, cmake
+- SDL3, SDL3-image, SDL3-ttf
+- OpenGL
+- OpenAL-Soft
+- Assimp
 
-# OS機能のインストール
+# OS機能ライブラリのインストール
 ```bash
 sudo apt update
 
