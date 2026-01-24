@@ -38,7 +38,7 @@ Actor* player = CreateActor<PlayerActor>();
 
 ## Scene 側で許可される保持方法
 
-### OK（推奨）
+### OK（推奨） 
 
 ```cpp
 class StageScene : public IScene
