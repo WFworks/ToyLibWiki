@@ -10,6 +10,7 @@
 
 ---
 
+
 ## なぜ `Actor*` だけを保持してよいのか
 
 ToyLib では Actor の実体は Application が次の形で保持します。
